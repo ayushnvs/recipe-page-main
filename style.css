@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #f3e6d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 115px;
+}
+
+#card {
+    width: 735px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "Young Serif";
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
