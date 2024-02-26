@@ -50,7 +50,7 @@ h1, h2 {
     font-weight: 400;
 }
 
-p, h4, li:not(text) {
+p, h4, li {
     font-family: "Outfit";
     color: #5f574e;
     font-weight: 400;
