@@ -50,9 +50,10 @@ h1, h2 {
     font-weight: 400;
 }
 
-p, h4, li {
+p, h4, li:not(text) {
     font-family: "Outfit";
     color: #5f574e;
+    font-weight: 400;
 }
 
 #preparation-time {
@@ -109,6 +110,10 @@ ol li {
     padding-left: 20px;
 }
 
+ol li:not(:first-of-type) { 
+    padding-top: 0.18rem; 
+}
+
 ol li::marker {
     font-weight: 700;
 }
@@ -126,12 +131,33 @@ hr {
     margin-bottom: 30px;
 }
 
+table {
+    font-family: "Outfit";
+    font-weight: 400;
+    width: 100%;
+}
 
+table, td {
+    border-bottom: 1.9px solid #e4ded8;
+    border-collapse: collapse;
+}
 
+table td:nth-child(1) {
+    color: #5f574e;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
 
+table td:nth-child(2) {
+    color: #854632;
+    font-weight: 700; 
+    padding-left: 0px;
+}
 
-
-
+table, #bottom-row td {
+    border-bottom: none;
+}
 
 .attribution {
     font-size: 11px;
