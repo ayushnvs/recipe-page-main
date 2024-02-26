@@ -7,6 +7,10 @@ html {
     box-sizing: inherit;
 }
 
+h1, h2, h4, ul {
+    margin: 0px;
+}
+
 body {
     background-color: #f3e6d8;
     display: flex;
@@ -14,6 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 115px;
+    line-height: 1.7rem;
 }
 
 #card {
@@ -29,8 +34,60 @@ img {
 }
 
 h1 {
+    color: #302d2c;
+    margin-top: 35px;
+}
+
+h2 {
+    color: #854632;
+}
+
+h1, h2 {
     font-family: "Young Serif";
-    opacity: 0.8;
+    font-weight: 400;
+}
+
+p, li {
+    font-family: "Outfit";
+    color: #5f574e;
+}
+
+#preparation-time {
+    background-color: #fff5fa;
+    padding: 22px;
+    margin-top: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+#preparation-time h4 {
+    color: #7b284f;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+#preparation-time ul {
+    margin-top: 10px;
+}
+
+#ingredients {
+    margin-top: 15px;
+}
+
+#instructions {
+    margin-top: 15px;
+}
+
+span {
+    color: #302d2c;
+    font-weight: 600;
+}
+
+hr {
+    background-color: #e4ded8;
+    opacity: 0.4;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 
